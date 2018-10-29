@@ -41,15 +41,33 @@
 
         <div class="container">
 
-            <h1>Contact</h1>
+            <div class="pageheader">
+                <h1>Contact</h1>
+            </div>
 
-            <h2>Name</h2>
+            <form action="/action_page.php">
 
-            <h2>Email</h2>
+                <div class="contact-text">
+                Name
+                </div>
+                 
+                <input type="text" name="FirstName" value="Jane Doe">
 
-            <h2>Message</h2>
+                <div class="contact-text">
+                Email
+                </div>
 
-            <button type="button">Submit</button>
+                <input type="text" name="LastName" value="example@gmail.com">
+
+                <div class="contact-text">
+                Message
+                </div>
+
+                <input class="contact-text-message" type="text" name="Message">
+
+            </form>
+
+            <input type="button" class="button" value="Submit">
 
 
         </div>

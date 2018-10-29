@@ -9,7 +9,7 @@ nav {
     width: 250px;
     float: right;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
     display: inline-block;
 }
 
@@ -17,7 +17,7 @@ a:link  {
     text-decoration: none;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .namebox    {
@@ -48,27 +48,123 @@ a:link  {
     border: 3px solid #dddddd;
 }
 
-#about  {
+.container-portfolio    {  
+    width: 960px;
+    height: 820px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 3px solid #dddddd;
+}
+
+
+.pageheader  {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px solid #cccccc;
+    width: 900px;
+    margin-left: 30px;
+    padding-top: 10px;
 }
 
 #about_text   {
     line-height: 1.5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 0px 20px 20px 20px;
-}
-#me {
-    height: 180px;
-    width: 180px;
-    float: left;
-    padding: 25px;
+    padding: 0px 20px 20px 30px;
 }
 
-.portfolio-box{
-    height: 140px;
+.contact-text   {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+    margin: 20px 0px 10px 30px;
+}
+
+input  {
+    width: 900px;
+    padding: 10px 10px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact-text-message   {
+    width: 900px;
+    height: 250px;
+    padding: 10px 10px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.button  {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 20px 0px 30px 30px;
+    height: 40px;
+    width: 80px;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#me {
+    height: 200px;
     width: 200px;
+    float: left;
+    padding: 25px 30px 0 30px; 
+}
+
+.portfolio-box-1    {
+    height: 200px;
+    width: 280px;
     border: black 1px solid;
+    margin: 20px;
+    float: left;
+}
+
+.portfolio-box-2    {
+    height: 200px;
+    width: 280px;
+    border: black 1px solid;
+    margin: 20px;
+    float: left;
+}
+
+.portfolio-box-3    {
+    height: 200px;
+    width: 280px;
+    border: black 1px solid;  
+     margin: 20px;
+    float: left;
+}
+
+.portfolio-box-4    {
+    height: 200px;
+    width: 280px;
+    border: black 1px solid;
+    margin: 20px;
+    float: left;
+}
+
+.portfolio-box-5    {
+    height: 200px;
+    width: 280px;
+    border: black 1px solid;
+    margin: 20px;
+    float: left;
+}
+
+.porfolio-box-text  {
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    height: 55px;
+    text-align: center;
+    margin-top: 120px;
+    padding: 5px;
 }
 
 .Header {
